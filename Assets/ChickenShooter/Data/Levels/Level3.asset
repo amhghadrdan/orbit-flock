@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41bb0acea7d3c554845a10559815515, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  Number: 3
+  SceneName: Level3
+  Theme: Deep Galaxy
+  Backdrop: {fileID: 21300000, guid: 66605f6d70d6f849f9544f5f28e08e9b, type: 3}
+  Music: {fileID: 8300000, guid: 6026341071a0470b93384211df528c2b, type: 3}
+  Rounds:
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 8
+    Difficulty: 1
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 9
+    Difficulty: 1.035
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 10
+    Difficulty: 1.07
+  - Wave: {fileID: 11400000, guid: 531b33c11b04689ba9616fdca7157f10, type: 2}
+    CountOverride: 14
+    Difficulty: 1.105
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 11
+    Difficulty: 1.14
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 12
+    Difficulty: 1.175
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 13
+    Difficulty: 1.21
+  - Wave: {fileID: 11400000, guid: 531b33c11b04689ba9616fdca7157f10, type: 2}
+    CountOverride: 15
+    Difficulty: 1.245
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 14
+    Difficulty: 1.28
+  - Wave: {fileID: 11400000, guid: 57f8525be03bd7aaf8f82b978ea3ab94, type: 2}
+    CountOverride: 15
+    Difficulty: 1.315
+  Boss:
+    Name: COSMIC EMPEROR
+    Health: 94
+    VolleyShots: 9
+    VolleyInterval: 0.9
+    ShotSpeed: 5.3
+    DiveSpeed: 9.4

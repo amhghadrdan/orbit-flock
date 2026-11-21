@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7733e1e9b0042faa01fd4eed36bad6, type: 3}
+  m_Name: ChickenBase Wave
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4500968995939909547, guid: cd76a5b52999e10a5b18707a4bd80db6, type: 3}
+  Count: 6
+  SpawnInterval: 0.32
+  Speed: 4.7
+  Health: 1
+  Score: 100
+  Formation: 0
+  Columns: 5
+  EntryStart: {x: -7, y: 5.2}
+  EntryControlA: {x: -6.5, y: 3.3}
+  EntryControlB: {x: -0.3, y: 4.5}
+  MirrorAlternate: 0
+  EggInterval: {x: 4, y: 7}
+  DiveEvery: 5
+  DiveSpeed: 6.4
+  DiveDelay: {x: 3.6, y: 5.3}
+  GiftCarrier: 1
+  AsteroidSpread: 7.1
+  AsteroidDrift: 0.6

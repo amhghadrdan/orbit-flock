@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7733e1e9b0042faa01fd4eed36bad6, type: 3}
+  m_Name: ChickenArmor Wave
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6945116758020724838, guid: f8164c833e525567ea6a41a563ca0ecb, type: 3}
+  Count: 7
+  SpawnInterval: 0.27
+  Speed: 5.5
+  Health: 2
+  Score: 150
+  Formation: 1
+  Columns: 7
+  EntryStart: {x: -7.25, y: 5.3}
+  EntryControlA: {x: -5.8, y: 2.1}
+  EntryControlB: {x: 1.5, y: 4.3}
+  MirrorAlternate: 1
+  EggInterval: {x: 3.1, y: 5.5}
+  DiveEvery: 4
+  DiveSpeed: 7.45
+  DiveDelay: {x: 3.1, y: 4.7}
+  GiftCarrier: 1
+  AsteroidSpread: 7.1
+  AsteroidDrift: 0.6

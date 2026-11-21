@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41bb0acea7d3c554845a10559815515, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  Number: 2
+  SceneName: Level2
+  Theme: Jupiter Belt
+  Backdrop: {fileID: 21300000, guid: 2809f717f2e7502998edadbf5edecdfb, type: 3}
+  Music: {fileID: 8300000, guid: d366895da3dc4446bfcaa85208949c65, type: 3}
+  Rounds:
+  - Wave: {fileID: 11400000, guid: a7471ccba213e523a99402d6867d11d8, type: 2}
+    CountOverride: 7
+    Difficulty: 1
+  - Wave: {fileID: 11400000, guid: a7471ccba213e523a99402d6867d11d8, type: 2}
+    CountOverride: 9
+    Difficulty: 1.045
+  - Wave: {fileID: 11400000, guid: ca14183433116a1689e709ba25dd8319, type: 2}
+    CountOverride: 10
+    Difficulty: 1.09
+  - Wave: {fileID: 11400000, guid: a7471ccba213e523a99402d6867d11d8, type: 2}
+    CountOverride: 11
+    Difficulty: 1.135
+  - Wave: {fileID: 11400000, guid: a7471ccba213e523a99402d6867d11d8, type: 2}
+    CountOverride: 13
+    Difficulty: 1.1800001
+  - Wave: {fileID: 11400000, guid: ca14183433116a1689e709ba25dd8319, type: 2}
+    CountOverride: 11
+    Difficulty: 1.225
+  - Wave: {fileID: 11400000, guid: a7471ccba213e523a99402d6867d11d8, type: 2}
+    CountOverride: 15
+    Difficulty: 1.27
+  Boss:
+    Name: MECHA CHICKEN
+    Health: 68
+    VolleyShots: 7
+    VolleyInterval: 1.1
+    ShotSpeed: 4.7
+    DiveSpeed: 8.1

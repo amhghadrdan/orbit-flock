@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7733e1e9b0042faa01fd4eed36bad6, type: 3}
+  m_Name: ChickenAlien Wave
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3228952197527137464, guid: dfee67724d904390fafc8aa75a3c9055, type: 3}
+  Count: 8
+  SpawnInterval: 0.22
+  Speed: 7
+  Health: 3
+  Score: 200
+  Formation: 2
+  Columns: 7
+  EntryStart: {x: -3.9, y: 5.2}
+  EntryControlA: {x: -7.5, y: 3.3}
+  EntryControlB: {x: 0.9, y: 1.65}
+  MirrorAlternate: 1
+  EggInterval: {x: 2, y: 3.8}
+  DiveEvery: 3
+  DiveSpeed: 9.3
+  DiveDelay: {x: 2.1, y: 4.2}
+  GiftCarrier: 1
+  AsteroidSpread: 7.1
+  AsteroidDrift: 0.6

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41bb0acea7d3c554845a10559815515, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  Number: 1
+  SceneName: Level1
+  Theme: Earth Orbit
+  Backdrop: {fileID: 21300000, guid: fe9e057c75348582eb723df789aa6b68, type: 3}
+  Music: {fileID: 8300000, guid: 0d50adeb77ef45aeac0271fb5851e81e, type: 3}
+  Rounds:
+  - Wave: {fileID: 11400000, guid: 1d0dfa422a974e985877ef66d510da5e, type: 2}
+    CountOverride: 6
+    Difficulty: 1
+  - Wave: {fileID: 11400000, guid: 1d0dfa422a974e985877ef66d510da5e, type: 2}
+    CountOverride: 8
+    Difficulty: 1.045
+  - Wave: {fileID: 11400000, guid: 8356a77613b35789480a2975ff8365fb, type: 2}
+    CountOverride: 7
+    Difficulty: 1.09
+  - Wave: {fileID: 11400000, guid: 1d0dfa422a974e985877ef66d510da5e, type: 2}
+    CountOverride: 10
+    Difficulty: 1.135
+  - Wave: {fileID: 11400000, guid: 1d0dfa422a974e985877ef66d510da5e, type: 2}
+    CountOverride: 12
+    Difficulty: 1.1800001
+  Boss:
+    Name: BROOD COMMANDER
+    Health: 46
+    VolleyShots: 5
+    VolleyInterval: 1.35
+    ShotSpeed: 3.9
+    DiveSpeed: 6.5

@@ -1,0 +1,5 @@
+{
+  "name": "OrbitFlock.Runtime",
+  "rootNamespace": "OrbitFlock",
+  "references": ["Unity.InputSystem", "Unity.ugui"]
+}
